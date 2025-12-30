@@ -17,4 +17,10 @@ public class CreateContactTest extends  BaseClass{
 	{
 		System.out.println("execute CreateContactWithDate");
 	}
+	
+	@Test
+	public void deleteContactWithDate()
+	{
+		System.out.println("execute deleteContactWithDate");
+	}
 }
