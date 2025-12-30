@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="admin"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="http://49.249.28.218:8888/"/>
+  <parameter name="username" value="admin"/>
+  <test thread-count="5" name="xml(failed)">
+    <classes>
+      <class name="practice.datadriventesting.CreateOrgInCRM_XML">
+        <methods>
+          <include name="createOrgtest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- practice.datadriventesting.CreateOrgInCRM_XML -->
+    </classes>
+  </test> <!-- xml(failed) -->
+</suite> <!-- Failed suite [Suite] -->

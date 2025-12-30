@@ -1,0 +1,17 @@
+dws_testcases\DWS_LoginTest.class
+practice\datadriventesting\ReadRunTimeMavenParameterTest.class
+practice\datadriventesting\ReadDataFromExcelTest.class
+practice\datadriventesting\ReadDataBackToExcelTest.class
+practice\datadriventesting\ReadMultipleData.class
+practice\datadriventesting\GenerateRandomNumtest.class
+maven_basics\DWS_SearchTest.class
+dws_testcases\DWS_SearchTest.class
+maven_basics\MavenSampleTest.class
+practice\datadriventesting\JavaClassReadRunTimeParameterTest.class
+practice\datadriventesting\GenerateAlphanumericRandomData.class
+practice\datadriventesting\SeleniumTestReadDataFromRunTime.class
+practice\datadriventesting\ReadDataBasedOnCondition.class
+dws_testcases\DWS_RegisterTest.class
+maven_basics\DWS_SubscribeTest.class
+practice\datadriventesting\CreateOrgInCRM.class
+practice\datadriventesting\SampleDataDrivenTesting.class
