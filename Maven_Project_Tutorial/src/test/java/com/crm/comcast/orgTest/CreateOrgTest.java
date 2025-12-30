@@ -6,9 +6,11 @@ import com.crm.generic.baseutility.BaseClass;
 
 public class CreateOrgTest extends BaseClass{
 		
-	@Test
+	@Test(groups="SmokeTesting")
 	public void createOrgTest()
 	{
+		System.out.println("execute CreateOrgTest and Verify");
+		
 		String url=System.getProperty("url");
 		String browser=System.getProperty("browser");
 		String username=System.getProperty("username");
@@ -17,10 +19,9 @@ public class CreateOrgTest extends BaseClass{
 		System.out.println(browser);
 		System.out.println(username);
 		System.out.println(password);
-		System.out.println("execute CreateOrgTest and Verify");
 	}
 	
-	@Test
+	@Test(groups="RegressionTesting")
 	public void createOrgWithIndustry()
 	{
 		System.out.println("execute createOrgWithIndustry and Verify");
