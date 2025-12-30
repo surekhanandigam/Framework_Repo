@@ -23,4 +23,11 @@ public class CreateContactTest extends  BaseClass{
 	{
 		System.out.println("execute deleteContactWithDate");
 	}
+	
+	@Test
+	public void modifyContactWithDate()
+	{
+		System.out.println("execute modifyContactWithDate");
+	}
+
 }
